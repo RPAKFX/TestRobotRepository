@@ -3,6 +3,7 @@
   <prologue>
     <saved-by-versions>
       <version>10.7.0.4</version>
+      <version>10.7.0.9</version>
     </saved-by-versions>
     <comment/>
     <tags/>
@@ -155,7 +156,7 @@
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
       <object class="Transition" serializationversion="3" id="10">
-        <property name="name" class="String">Store in Database</property>
+        <property name="name" class="String">Store in Database 2</property>
         <property name="stepAction" class="StoreInDatabase" serializationversion="0">
           <property name="variableName" class="kapow.robot.plugin.common.support.VariableName">
             <property name="name" idref="0"/>
@@ -167,7 +168,9 @@
           <null/>
         </property>
         <property name="enabled" idref="3"/>
-        <property name="changedProperties" class="java.util.HashSet"/>
+        <property name="changedProperties" class="java.util.HashSet">
+          <element class="String">name</element>
+        </property>
       </object>
       <object class="End" id="11"/>
     </steps>
